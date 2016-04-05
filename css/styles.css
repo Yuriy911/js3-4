@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'open sans light', sans-serif;
+}
+
+@font-face {
+    font-family: 'open sans light';
+    src: url('../fonts/opensans-light-webfont.eot');
+    src: url('../fonts/opensans-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+    url('../fonts/opensans-light-webfont.woff') format('woff'),
+    url('../fonts/opensans-light-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.wrapper{
+    width: 798px;
+    height: 700px;
+    margin: 0 auto;
+    background: #fff;
+    box-shadow: 0 -5px 5px rgba(0,0,0,.3);
+    padding: 10px 0px 0 90px;
+}
+
+.title{
+    font:18px 'open sans light';
+    text-transform: uppercase;
+    margin: 15px 0 0 250px;
+}
+
+ol{
+    line-height: 35px;
+}
+
+ul{
+    list-style: none;
+}
+
+.label {
+    font: 18px 'open sans light';
+    margin-left: 0;
+    line-height: 30px;
+}
+
+.submit {
+    font: 14px 'open sans light';
+    padding: 10px 30px;
+    background: gray;
+}
+.span:before {
+    content: "";
+    display: inline-block;
+    height:15px;
+    width:15px;
+    background: gray;
+    border-radius: 3px ;
+    margin: 10px 10px 0 0;
+    vertical-align: top;
+}
+
+.checkbox {
+    display: none;
+}
+
+.checkbox:checked + .span:before {
+    background: #000;
+}
+
+.submit {
+    background: #0625df;
+    margin: 20px 0 0 270px;
+    padding: 10px 15px 10px 15px;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.submit:hover {
+    color: #000;
+}
+
+
+
+
+
